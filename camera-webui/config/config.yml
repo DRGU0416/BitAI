@@ -1,0 +1,42 @@
+port: 3096
+#debug info warn error
+loglev: debug
+deletemidfile: false
+maxWaitMinute: 20
+webui:
+  host: ""
+  deskey: ""
+  thread: 1
+  oss_host: ""
+  work_path: ""
+  train_path: ""
+  check_path: ""
+  photohr_path: ""
+  lora_save_path: ""
+  lora_path: ""
+  roop_model_path: ""
+  webui_host: ""
+  kohya_host: ""
+  image_host: ""
+  image_hr_host: ""
+  #训练参数
+  batch_size: 0
+  save_every_n_epochs: 0
+  loop: 0
+  cpu_threads_per_core: 0
+  network_rank: 0
+  optimizer: ""
+  use_xformers: true
+  gradient_accumulate_steps: 0
+  prior_loss_weight: 0
+
+qiniu:
+  host: ""
+  access_key: ""
+  secret_key: ""
+  bucket: ""
+
+baidu:
+  apikey: ""
+  apisecret: ""
+  qpslimit: 0

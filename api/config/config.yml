@@ -1,0 +1,46 @@
+port: 3093
+#debug info warn error
+loglev: info
+common:
+  img_host: ""
+  sms_code: ""
+  deskey: ""
+  share_code: ""
+  #训练和分身模型
+  sd_base_model: ""
+  #每日每用户写真任务限制
+  photo_limit: 50
+mysql:
+  user: ""
+  password: ""
+  host: ""
+  port: 3306
+  dbname: ""
+  pagenum: 20
+redis:
+  host: ""
+  port: 6397
+  password: ""
+web:
+  token: ""
+webui:
+  deskey: ""
+  callback: ""
+  callback_card: ""
+  callback_photo: ""
+  callback_photo_hr: ""
+  callback_recognize: ""
+baidu:
+  #翻译并发数
+  thread: 2
+  #审核并发数
+  censor_thread: 1
+  #是否审核图像
+  img_censor: true
+  #是否审核文字
+  text_censor: true
+qiniu:
+  host: ""
+  access_key: ""
+  secret_key: ""
+  bucket: ""
